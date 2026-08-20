@@ -43,6 +43,6 @@ jobs:
         with:
           python_ver: '3.11'
           pyinstaller_ver: '==5.13.2'
-          spec: 'main.py'
+          script: 'main.py'
           upload_exe_with_name: 'moqian_package'
-          options: --onefile, --name "My App", --windowed
+          options: --onefile
